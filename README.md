@@ -1,8 +1,5 @@
 # Expense Tracker Backend
 
-## :small_red_triangle: About
-
-This project is a rest-ful api made used `django-rest-framework` ,`django` and `python`. As the name suggest it's a api for tracking your expense data wia a mobile app made with `flutter` .Visit  [link]("https://github.com/tuuhin/expense_tracker") to head over to see the mobile app .
 
 ### :bookmark_tabs: Back-End
 
@@ -14,11 +11,11 @@ Being a `django` project , using it's abilities to seperate the content into app
 
 #### :briefcase: base
 
-Base deals with the authentication and authorization stuff,for the authentication we have used `json web tokens` for more information  [jwt]("https://jwt.io) . There is a functionality to create profiles ,with images ,for storing the images `aws-s3` buckets are used. To see the available [routes]("https://github.com/tuuhin/expense_tracker_backend/blob/main/base/urls.py").
+Base deals with the authentication and authorization stuff,for the authentication we have used `json web tokens` for more information  [jwt]("https://jwt.io) . There is a functionality to create profiles ,with images ,for storing the images `aws-s3` buckets are used. 
 
 #### :flying_saucer: api
 
-Api is related to most of the basic routes to deal with incomes and expenses.With the context of the project this is the main app, which deals with the most important job .Too see the [routes]("https://github.com/tuuhin/expense_tracker_backend/blob/main/api/urls.py")
+Api is related to most of the basic routes to deal with incomes and expenses.With the context of the project this is the main app, which deals with the most important job .
 
 #### :man_playing_handball: plans
 
